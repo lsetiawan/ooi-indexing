@@ -1,0 +1,13 @@
+name: ooi-indexing
+channels:
+- conda-forge
+dependencies:
+- python=3.10
+- xarray
+- dask
+- distributed
+- zarr
+- ipykernel
+- fsspec
+- s3fs
+- cftime

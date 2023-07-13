@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Create Environment",
+        "type": "shell",
+        "command": "mamba env create -f environment.yaml",
+      },
+      {
+        "label": "Update Environment",
+        "type": "shell",
+        "command": "mamba env update -f environment.yaml",
+      }
+    ]
+  }
